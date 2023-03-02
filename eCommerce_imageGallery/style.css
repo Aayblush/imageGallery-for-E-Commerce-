@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.product-small-img img{
+    /* border: 2px solid red; */
+    height: 65px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;  /*Note image have inline position by default so they remain horizontally with each other so to prevent it, we must include display value as a block. */
+    opacity: .6;
+}
+
+.product{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    position: absolute;
+}
+
+.img-container img{
+    height: 380px;
+    cursor: pointer;
+    
+}
+
+.product-small-img{
+    float: left;
+}
+
+.img-container{
+    float: right;
+    /* border: 2px solid red; */
+    padding: 10px;    
+
+}
+
+.product-small-img img:hover{
+    opacity: 1;
+    
+}
